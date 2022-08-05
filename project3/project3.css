@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    list-style: none;
+    float:left;
+}
+.logo{
+    list-style: none;
+    
+}
+.logo p{
+    color: rgb(235, 240, 244);
+    position: relative;
+    top:15px;
+    left:-4px;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Shadows Into Light', cursive;
+}
+.navbar ul{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    background-color: black;
+    overflow: auto;
+    color: antiquewhite;
+    opacity: 0.8;
+    /*position: fixed;*/
+    box-sizing: border-box;
+    padding-left: 1px;
+    /*transition: background-color 0.5s ease-in-out ;*/
+}
+.navvalue{
+    float: left;
+    list-style: none;
+    padding: 10px 70px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+#navkey1{
+    margin-left: 250px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar ul li a:hover{
+    color: rgb(248, 182, 193);
+    cursor: pointer;
+}
+#navkey5{
+    float: right;
+    margin-right: 5px;
+}
+.navbar::before{
+    background:url(/flora2.jpg) no-repeat center center/cover;
+    content:"";
+    position: absolute;
+    z-index: -1;
+    height: 800px;
+    width: 100%;
+    margin: 0px 0px;
+}
+.container1{
+    color: rgb(15, 16, 16);
+    /*display: block;*/
+    background-color: rgb(246, 240, 240);
+    box-shadow: 2px 2px rgb(53, 52, 52);
+    opacity: 0.7;
+    width: 90%;
+    margin: 0px 50px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top:110px;
+    text-shadow: 1px 1px rgb(132, 132, 128);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Shadows Into Light', cursive;
+}
+.container2{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    width:60%;
+    margin-left: 290px;
+    justify-content: space-evenly;
+}
+.box a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.box{
+    background-color: rgb(75, 122, 80);
+    opacity:0.8;
+    width: 300px;
+    height: 100px;
+    box-shadow: 3px 3px rgb(18, 70, 2);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 60px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out 0s;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+.box a:hover{
+    color: rgb(246, 179, 198);
+}
+.box:hover{
+    height:110px;
+    width:310px;
+    font-size: 30px;
+}
+.container3{
+    position: absolute;
+    top:500px;
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container3::before{
+    content:"";
+    position: absolute;
+    background-color: rgb(12, 12, 12);
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#image1{
+    width:250px;
+    height: 250px;
+    padding: 5px 5px;
+}
+#image2{
+    width:250px;
+    height: 250px;
+    padding: 5px 5px;
+}
+#image3{
+    width:250px;
+    height: 250px;
+    padding: 5px 5px;
+}
+#image4{
+    width:250px;
+    height:250px;
+    padding: 5px 5px;   
+}
+.img{
+    background-color: black;
+    border-radius: 10px;
+    width:260px;
+    height:260px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+}
+.img:hover{
+    transform: rotateY(180deg);
+}
+.image{
+    backface-visibility: hidden;
+    position: absolute;
+}
+.about{
+    color: rgb(10, 10, 11);
+    text-align: center;
+    padding-top: 110px;
+    font-size: 30px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgb(231, 224, 224);
+    border-radius: 10px;
+    width: 260px;
+    height: 260px;
+    backface-visibility: hidden;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    transform: rotateY(180deg);
+}
+.profile::before{
+    background: url(/florabg3.jpg) no-repeat center center/cover;
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: -650px;
+    width: 1520px;
+    height: 100%;
+    z-index: -1;
+}
+.profile{
+    position: absolute;
+    padding: 20px;
+    top:850px;
+    left: 650px;
+}
+.profile p{
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+.form{
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Hubballi', cursive;
+    font-family: 'Hurricane', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+}
+#btn{
+    padding: 10px 10px;
+    width: 300px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: rgb(236, 183, 208);
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: rgb(175, 181, 186);
+    cursor: pointer;
+}
+#pass ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-left: 15px;
+}
